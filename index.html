@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".assets/css/style.css" />
+    <!-- Source for css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <title>Document</title>
+    <title>Open Weather App</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="has-text-centered column">Weather Dashboard</header>
+    <!-- Collumns starts css -->
     <div class="columns">
+        <!-- Left most collumn , 1/4 of page-->
         <div class="column is-one-quarter">
             <h2>Search for a City:</h2><br>
             <form id="user-form">
@@ -23,6 +27,7 @@
                 Search History:
             </div>
         </div>
+        <!-- Right Collumn, fills up other 3/4 of page -->
         <div class="column">
         <div class="card">
             <p class="subtitle is-5">City</p>
@@ -33,29 +38,26 @@
             <br>
         </div>
         5 Day Forecast
+        <!-- 5 Day Forecast Cards, need to be spaced lower -->
         <div class="columns is-mobile">
-
+                <!-- 5 Day Cards -->
                 <div class="column card">
-                <p class="bd-notification is-danger">Auto</p>
+                <p class="bd-notification is-danger">Pending</p>
               </div>
               <div class="column card">
-                <p class="bd-notification is-danger">Auto</p>
+                <p class="bd-notification is-danger">Pending</p>
               </div>
               <div class="column card">
-                <p class="bd-notification is-danger">Auto</p>
+                <p class="bd-notification is-danger">Pending</p>
               </div>
               <div class="column card">
-                <p class="bd-notification is-danger">Auto</p>
+                <p class="bd-notification is-danger">Pending</p>
               </div>
               <div class="column card">
-                <p class="bd-notification is-danger">Auto</p>
+                <p class="bd-notification is-danger">Pending</p>
               </div>
-
+            </div>
         </div>
-
-        </div>
-        
-
     </div>
 </body>
 </html>

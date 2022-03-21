@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="has-text-centered column">Weather Dashboard</header>
+    <div class="columns">
+        <div class="column is-one-quarter">
+            <h2>Search for a City:</h2><br>
+            <form id="user-form">
+            <label class="form-label" for="city"></label>
+            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+            <button type="submit" class="btn">Search</button>
+            </form><br>
+
+            <div id="history-container" class="tile is-info box">
+                Search History:
+            </div>
+        </div>
+        <div class="column">
+        <div class="card">
+            <p class="subtitle is-5">City</p>
+            <p>Temp:</p>
+            <p>Wind:</p>
+            <p>Humidity:</p>
+            <p>UV Index:</p>
+            <br>
+        </div>
+        5 Day Forecast
+        <div class="columns is-mobile">
+
+                <div class="column card">
+                <p class="bd-notification is-danger">Auto</p>
+              </div>
+              <div class="column card">
+                <p class="bd-notification is-danger">Auto</p>
+              </div>
+              <div class="column card">
+                <p class="bd-notification is-danger">Auto</p>
+              </div>
+              <div class="column card">
+                <p class="bd-notification is-danger">Auto</p>
+              </div>
+              <div class="column card">
+                <p class="bd-notification is-danger">Auto</p>
+              </div>
+
+        </div>
+
+        </div>
+        
+
+    </div>
+</body>
+</html>
